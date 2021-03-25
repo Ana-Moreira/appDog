@@ -1,0 +1,148 @@
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+  
+  .cadastro-right img {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+  }
+  
+  .cadastro-right{
+      background-color:#29292e ;
+      border-radius:5px ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 50px;
+      padding: 20px;
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 50%;
+      left: 47%;
+      margin-right: -40%;
+      transform: translate(-50%, -50%)
+      
+  
+  }
+  
+  .cadastro-right h1{
+    font-family: 'Roboto Slab';
+    font-size: 40px; 
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .cadastro-InputEmail{
+      display: flex;
+      align-items: center;
+      color:gray;
+      background-color: #1A1A1D;
+      border-radius: 3px;
+      padding: 3px;
+      margin: 5px;
+      width: 98%;
+      height: 50px;
+      border-radius: 5px;
+      
+  }
+  
+  .cadastro-InputEmail svg{
+      margin-left: 10px;
+      font-size: 25px;
+  }
+  
+  .cadastro-InputEmail input{
+      background: transparent;
+      width: 100%;
+      outline-width: 0;
+      color: #e1e1e6;
+      border: none;
+      font-size: 17px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+  .cadastro-InputDono{
+      display: flex;
+      align-items: center;
+      color:gray;
+      background-color: #1A1A1D;
+      border-radius: 3px;
+      padding: 3px;
+      margin: 5px;
+      width: 98%;
+      height: 50px;
+      border-radius: 5px;
+      
+  }
+  
+  .cadastro-InputDono svg{
+      margin-left: 10px;
+      font-size: 25px;
+  }
+  
+  .cadastro-InputDono input{
+      background: transparent;
+      width: 100%;
+      outline-width: 0;
+      color: #e1e1e6;
+      border: none;
+      font-size: 17px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+  
+
+  .cadastro-right button{
+      width: 98%;
+      background-color: #202024;
+      color: #eff2f5;
+      font-weight: 800;
+      height: 50px;
+      border-radius: 5px;
+      font-size: 18px;
+      margin-top: 5px;
+      border: none;
+  
+      outline-width: 0;
+  }
+  
+  .cadastro-right button:hover{
+      background-color: #121214;
+      color:#eff2f5;
+      cursor:pointer;
+  
+  }
+
+  .cadastro-InputPass{
+    display: flex;
+    align-items: center;
+    color:gray;
+    background-color: #1A1A1D;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .cadastro-InputPass input{
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #e1e1e6;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
